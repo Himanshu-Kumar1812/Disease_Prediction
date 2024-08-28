@@ -25,9 +25,9 @@ def diabetes_prediction(input_data):
     print(prediction)
 
     if prediction[0] == 0:
-        return "women is non-diabetic"
+        return "Person is non-diabetic"
     else:
-       return "women is diabetic"
+       return "Person is diabetic"
 
 
 def main():
